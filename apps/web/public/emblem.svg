@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="ASTA five-leaf emblem">
+  <defs>
+    <radialGradient id="leaf" cx="50%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#B52C43"/>
+      <stop offset="55%" stop-color="#8B1E2D"/>
+      <stop offset="100%" stop-color="#3A0C14"/>
+    </radialGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#F5F2ED"/>
+      <stop offset="55%" stop-color="#C6A66A"/>
+      <stop offset="100%" stop-color="#7957C8"/>
+    </radialGradient>
+    <g id="petal">
+      <path d="M100 96 C 82 84, 68 64, 74 45 C 79 29, 94 26, 100 40 C 106 26, 121 29, 126 45 C 132 64, 118 84, 100 96 Z"
+            fill="url(#leaf)" stroke="#C6A66A" stroke-opacity="0.35" stroke-width="1.2"/>
+      <path d="M100 48 L100 88" stroke="#08090D" stroke-opacity="0.5" stroke-width="1.4" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#C6A66A" stroke-opacity="0.22" stroke-width="1"/>
+  <circle cx="100" cy="100" r="74" fill="none" stroke="#C6A66A" stroke-opacity="0.1" stroke-width="1" stroke-dasharray="1 7"/>
+  <g>
+    <use href="#petal" transform="rotate(0 100 100)"/>
+    <use href="#petal" transform="rotate(72 100 100)"/>
+    <use href="#petal" transform="rotate(144 100 100)"/>
+    <use href="#petal" transform="rotate(216 100 100)"/>
+    <use href="#petal" transform="rotate(288 100 100)"/>
+  </g>
+  <circle cx="100" cy="100" r="15" fill="#08090D" stroke="#C6A66A" stroke-opacity="0.5"/>
+  <circle cx="100" cy="100" r="8" fill="url(#core)"/>
+  <circle cx="100" cy="100" r="3" fill="#08090D"/>
+</svg>

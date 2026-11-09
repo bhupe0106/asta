@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "होम",
+    "newChat": "नई बातचीत",
+    "search": "खोज",
+    "recent": "हाल की बातचीत",
+    "learn": "ASTA सीखें",
+    "work": "ASTA कार्य",
+    "create": "ASTA रचना",
+    "companion": "ASTA साथी",
+    "agents": "एजेंट कार्यक्षेत्र",
+    "knowledge": "ज्ञान",
+    "tasks": "कार्य",
+    "integrations": "एकीकरण",
+    "memory": "स्मृति",
+    "settings": "सेटिंग्स",
+    "profile": "प्रोफ़ाइल",
+    "signOut": "साइन आउट"
+  },
+  "common": {
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "delete": "हटाएँ",
+    "send": "भेजें",
+    "stop": "रोकें",
+    "loading": "लोड हो रहा है",
+    "retry": "फिर प्रयास करें",
+    "close": "बंद करें",
+    "copy": "कॉपी",
+    "copied": "कॉपी किया गया",
+    "upload": "अपलोड",
+    "refresh": "रिफ़्रेश"
+  },
+  "dashboard": {
+    "tagline": "आपकी बुद्धि। आपकी संभावनाएँ।",
+    "composerPlaceholder": "ASTA से कुछ भी पूछें — सीखें, बनाएँ, विश्लेषण करें…",
+    "suggested": "यहाँ से शुरू करें",
+    "recent": "हाल की बातचीत"
+  },
+  "chat": {
+    "placeholder": "ASTA को लिखें…",
+    "attach": "दस्तावेज़ जोड़ें",
+    "voice": "बोलें",
+    "language": "उत्तर की भाषा",
+    "agentsWorking": "विशेषज्ञ काम कर रहे हैं",
+    "citations": "स्रोत",
+    "thinking": "सोच रहा है",
+    "you": "आप",
+    "asta": "ASTA"
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "appearance": "रूप",
+    "language": "भाषा",
+    "voice": "आवाज़",
+    "memory": "स्मृति",
+    "privacy": "गोपनीयता",
+    "models": "मॉडल",
+    "about": "परिचय"
+  },
+  "auth": {
+    "welcome": "ग्रिमोयर खोलें",
+    "signIn": "साइन इन",
+    "createAccount": "खाता बनाएँ",
+    "guest": "अतिथि के रूप में जारी रखें",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "name": "प्रदर्शित नाम"
+  }
+}

@@ -1,0 +1,35 @@
+services:
+  api:
+    build:
+      context: ./services/api
+    environment:
+      ASTA_ENVIRONMENT: production
+      ASTA_SECRET_KEY: ${ASTA_SECRET_KEY:-change-me-before-exposing-this-stack}
+      ASTA_DATABASE_URL: sqlite:////data/asta.db
+      ASTA_UPLOAD_DIR: /data/uploads
+      ASTA_CORS_ORIGINS: ${ASTA_CORS_ORIGINS:-http://localhost:8080}
+      ASTA_PROVIDER_MODE: ${ASTA_PROVIDER_MODE:-auto}
+      ASTA_OLLAMA_BASE_URL: ${ASTA_OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+      ASTA_OLLAMA_MODEL: ${ASTA_OLLAMA_MODEL:-llama3.2}
+      ASTA_ALLOW_DEMO_PROVIDER: ${ASTA_ALLOW_DEMO_PROVIDER:-true}
+      ASTA_SEARCH_PROVIDER: ${ASTA_SEARCH_PROVIDER:-disabled}
+      ASTA_SEARXNG_URL: ${ASTA_SEARXNG_URL:-}
+    volumes:
+      - asta-data:/data
+    ports:
+      - "8000:8000"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./apps/web
+    depends_on:
+      - api
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+
+volumes:
+  asta-data:

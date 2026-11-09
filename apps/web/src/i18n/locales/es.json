@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "newChat": "Nueva conversación",
+    "search": "Buscar",
+    "recent": "Conversaciones recientes",
+    "learn": "ASTA Aprender",
+    "work": "ASTA Trabajo",
+    "create": "ASTA Crear",
+    "companion": "ASTA Compañero",
+    "agents": "Espacio de agentes",
+    "knowledge": "Conocimiento",
+    "tasks": "Tareas",
+    "integrations": "Integraciones",
+    "memory": "Memoria",
+    "settings": "Ajustes",
+    "profile": "Perfil",
+    "signOut": "Cerrar sesión"
+  },
+  "common": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "send": "Enviar",
+    "stop": "Detener",
+    "loading": "Cargando",
+    "retry": "Reintentar",
+    "close": "Cerrar",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "upload": "Subir",
+    "refresh": "Actualizar"
+  },
+  "dashboard": {
+    "tagline": "Tu inteligencia. Tus posibilidades.",
+    "composerPlaceholder": "Pregunta a ASTA — aprende, crea, analiza, planifica…",
+    "suggested": "Empieza por aquí",
+    "recent": "Conversaciones recientes"
+  },
+  "chat": {
+    "placeholder": "Escribe a ASTA…",
+    "attach": "Adjuntar documento",
+    "voice": "Hablar",
+    "language": "Idioma de respuesta",
+    "agentsWorking": "Especialistas trabajando",
+    "citations": "Fuentes",
+    "thinking": "Pensando",
+    "you": "Tú",
+    "asta": "ASTA"
+  },
+  "settings": {
+    "title": "Ajustes",
+    "appearance": "Apariencia",
+    "language": "Idioma",
+    "voice": "Voz",
+    "memory": "Memoria",
+    "privacy": "Privacidad",
+    "models": "Modelos",
+    "about": "Acerca de"
+  },
+  "auth": {
+    "welcome": "Abre el grimorio",
+    "signIn": "Iniciar sesión",
+    "createAccount": "Crear cuenta",
+    "guest": "Continuar como invitado",
+    "email": "Correo",
+    "password": "Contraseña",
+    "name": "Nombre"
+  }
+}

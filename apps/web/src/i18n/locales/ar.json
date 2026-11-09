@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "newChat": "محادثة جديدة",
+    "search": "بحث",
+    "recent": "المحادثات الأخيرة",
+    "learn": "ASTA تعلّم",
+    "work": "ASTA عمل",
+    "create": "ASTA إبداع",
+    "companion": "ASTA رفيق",
+    "agents": "مساحة الوكلاء",
+    "knowledge": "المعرفة",
+    "tasks": "المهام",
+    "integrations": "التكاملات",
+    "memory": "الذاكرة",
+    "settings": "الإعدادات",
+    "profile": "الملف الشخصي",
+    "signOut": "تسجيل الخروج"
+  },
+  "common": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "send": "إرسال",
+    "stop": "إيقاف",
+    "loading": "جارٍ التحميل",
+    "retry": "إعادة المحاولة",
+    "close": "إغلاق",
+    "copy": "نسخ",
+    "copied": "تم النسخ",
+    "upload": "رفع",
+    "refresh": "تحديث"
+  },
+  "dashboard": {
+    "tagline": "ذكاؤك. إمكاناتك.",
+    "composerPlaceholder": "اسأل ASTA عن أي شيء — تعلّم، أنشئ، حلّل، خطّط…",
+    "suggested": "ابدأ من هنا",
+    "recent": "المحادثات الأخيرة"
+  },
+  "chat": {
+    "placeholder": "اكتب إلى ASTA…",
+    "attach": "إرفاق مستند",
+    "voice": "تحدّث",
+    "language": "لغة الرد",
+    "agentsWorking": "المتخصصون يعملون",
+    "citations": "المصادر",
+    "thinking": "يفكّر",
+    "you": "أنت",
+    "asta": "ASTA"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "appearance": "المظهر",
+    "language": "اللغة",
+    "voice": "الصوت",
+    "memory": "الذاكرة",
+    "privacy": "الخصوصية",
+    "models": "النماذج",
+    "about": "حول"
+  },
+  "auth": {
+    "welcome": "افتح الكتاب",
+    "signIn": "تسجيل الدخول",
+    "createAccount": "إنشاء حساب",
+    "guest": "المتابعة كضيف",
+    "email": "البريد",
+    "password": "كلمة المرور",
+    "name": "الاسم"
+  }
+}
